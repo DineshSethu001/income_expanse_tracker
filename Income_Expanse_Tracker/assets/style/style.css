@@ -102,8 +102,10 @@ input[type="number"]{
 }
 /* right side of ledger */
 .transaction{
-    background-image: url('/Income_Expanse_Tracker/assets/bg.jpg');
+    background-image: url('/assets/img/bg.jpg');
+    background-size: 400px 600px;
     background-position:right;
+    background-position-x:center;
     
     flex: 1;
     padding:20px;
@@ -127,15 +129,16 @@ input[type="number"]{
     color:white;
     box-shadow: rgba(0,0,0,0.02) 
     0px 1px 3px 0px,rgba(27,31,35,0.15)
-     0px 0px 0px 1px;
-     padding:10px;
-     margin:10px 0;
-     position:relative;
-     display: flex;
-     justify-content: space-between;
+    0px 0px 0px 1px;
+    padding:10px;
+    margin:10px 0;
+    position:relative;
+    display: flex;
+    justify-content: space-between;
 
 
 }
+
 .trans li.inc{
     border-left: 5px solid #1dd1a1;
 }
